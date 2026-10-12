@@ -1,13 +1,13 @@
+
 import java.util.Scanner;
 
-public class ошибка {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int k = sc.nextInt();
-
-        if (k >= 4 && k % 4 == 0) {
+public class Pawns {
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        int a = in.nextInt();
+        if(a == 1 || a % 4 == 0){
             System.out.println("YES");
-        } else {
+        }else{
             System.out.println("NO");
         }
     }
